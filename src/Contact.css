@@ -1,0 +1,28 @@
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+ul li {
+  font-size: smaller;
+}
+
+.contact-background {
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.contact-heading {
+  font-size: 3rem;
+  text-align: center;
+  color: black;
+}

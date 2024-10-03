@@ -1,0 +1,44 @@
+.skills-background {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: green;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  line-height: 3;
+  font-size: 1.2rem;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  transition: background-color 0.3s ease-in-out;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.skills-heading {
+  font-size: 2em;
+  color: black;
+}
+
+ul li {
+  margin: 0.3rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.1);
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
