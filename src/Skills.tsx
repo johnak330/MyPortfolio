@@ -4,7 +4,7 @@ function Skills() {
   return (
     <div className="skills-background">
       <div className="container">
-        <h1 className="skills-heading">Skills</h1>
+        <h1 className="skills-heading">SKILLS</h1>
         <div className="aboutbox">
           <div>
             <ul>
@@ -18,7 +18,7 @@ function Skills() {
               <li>Git/Github</li>
               <li>Jest</li>
               <li>Node.js</li>
-              <li>MangoDB</li>
+              <li>MongoDB</li>
             </ul>
           </div>
         </div>

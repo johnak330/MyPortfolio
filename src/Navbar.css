@@ -2,15 +2,32 @@ h1 {
   color: gray;
 }
 
+#contact-btn {
+  color: whitesmoke;
+  font-size: large;
+  border: none;
+  background-color: black;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 10px 2px;
+}
+
+#contact-btn a {
+  color: whitesmoke;
+  font-size: 1em;
+  padding: 15px;
+}
+
 .nav-background {
   margin: auto;
-  background-color: whitesmoke;
+  margin-top: 20px;
+  font-weight: 500;
   position: sticky;
-  font-size: large;
+  font-size: 1em;
   top: 0;
+  background-color: transparent;
   padding: 10px;
-  align-items: center;
-  justify-content: space-around;
   z-index: 100;
   display: flex;
 }
@@ -19,5 +36,17 @@ a {
   color: black;
   text-decoration: none;
   transition: color 0.3s ease-in-out;
-  padding: 5px;
+  padding: 0px 20px;
+}
+
+.nav-list {
+  width: full;
+  background-color: white;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 30px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
 }

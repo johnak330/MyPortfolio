@@ -1,34 +1,63 @@
 .head {
-  font-size: 5rem;
-  margin-top: 8px;
-  line-height: 0.9;
-  color: black;
-}
-
-.subhead {
-  font-size: 2rem;
-  font-weight: 100;
-  
+  font-size: 8em;
+  font-weight: 800;
+  margin: auto;
+  color: whitesmoke;
 }
 
 .headingbox {
-  text-align: left;
   line-height: 0.4;
-  
-  
+  color: whitesmoke;
+}
+
+.hero-container {
+  padding: 8em 0 8em 0;
 }
 
 .hero-background {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
+  height: 100%;
+  text-align: center;
+  background-color: black;
 }
 
 .mainhead {
-  font-size: 1em;
-  font-weight: 500;
-  color: white;
-  margin-bottom: 20px;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.contactme-btn {
+  color: black;
+  font-size: 1.2em;
+  font-weight: 600;
+  background-color: rgb(25, 189, 52);
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 30px;
+  padding: 10px 40px;
+}
+
+.card {
+  border-radius: 100%;
+  background-size: cover;
+  width: 10em;
+  height: 10em;
+  opacity: 0.5;
+}
+
+.card-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .head {
+    font-size: 4em;
+  }
 }

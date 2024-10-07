@@ -9,7 +9,8 @@ const linkedIn = <CiLinkedin />;
 
 const gitHubLink = "https://github.com/johnak330";
 
-const linkedInLink = "https://www.linkedin.com/in/oluwatosin-akinyemi-20306b289/";
+const linkedInLink =
+  "https://www.linkedin.com/in/oluwatosin-akinyemi-20306b289/";
 
 function Contact() {
   return (
@@ -17,7 +18,7 @@ function Contact() {
       <div className="container">
         <div className="aboutbox">
           <div>
-            <h1 className="contact-heading">Get In Touch</h1>
+            <h1 className="contact-heading">GET IN TOUCH</h1>
             <ul>
               <li>
                 <CiMail /> johnakinyemi330@gmail.com

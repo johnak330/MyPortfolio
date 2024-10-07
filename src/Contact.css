@@ -5,14 +5,25 @@ h1 {
 
 ul li {
   font-size: smaller;
+  background-color: rgb(25, 189, 52);
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+  &:hover {
+    background-color: rgb(25, 217, 79);
+  }
+  color: black;
 }
 
 .contact-background {
-  background-color: green;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .link {
@@ -24,5 +35,6 @@ ul li {
 .contact-heading {
   font-size: 3rem;
   text-align: center;
-  color: black;
+  font-weight: 900;
+  color: rgb(25, 189, 52);
 }

@@ -3,25 +3,28 @@ h1 {
 }
 
 .portfolio-heading {
-  font-size: 2em;
-  color: green;
+  font-size: 3em;
+  font-weight: 900;
+  color: rgb(25, 189, 52);
 }
 
 .portfolio-container {
-  color: green;
+  font-size: 1.2em;
+  padding: 0px 1em;
+  font-weight: 500;
+  color: whitesmoke;
 }
 
 .portfolio-background {
   background-color: black;
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
 }
 
 .portfolioImg {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  border-radius: 20px;
-  border: 10px solid green;
+  border-radius: 100%;
 }

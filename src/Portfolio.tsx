@@ -22,7 +22,7 @@ function Portfolio() {
   return (
     <div className="portfolio-background">
       <div className="container">
-        <h1 className="portfolio-heading">Portfolio</h1>
+        <h1 className="portfolio-heading">PORTFOLIO</h1>
         <div className="portfolio-container">
           <div>
             {projects.map((project) => (

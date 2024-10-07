@@ -4,11 +4,12 @@ function Navbar() {
   return (
     <div className="nav-background">
       <div className="nav-list">
-        <a href="/">Home</a>
-        <a href="/about">About</a>
-        <a href="/skills">Skills</a>
-        <a href="/portfolio">Portfolio</a>
-        <a href="/contact">Contact</a>
+        <a href="/">LinkedIn</a>
+        <a href="/about">GitHub</a>
+
+        <button id="contact-btn">
+          <a href="/contact">Contact</a>
+        </button>
       </div>
     </div>
   );
