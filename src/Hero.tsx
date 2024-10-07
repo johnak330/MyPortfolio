@@ -40,7 +40,9 @@ function Hero() {
           <h2 className="mainheader">frontend web developer</h2>
         </div>
         <h1 className="head">PORTFOLIO</h1>
-        <button className="contactme-btn">Contact Me</button>
+        <button className="contactme-btn">
+          <a href="mailto:johnakinyemi330@gmail.com">Contact Me</a>
+        </button>
         <div className="card-container">
           {cardImages.map((cardImage) => (
             <div key={cardImage.id}>
